@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="descreption" content="My resume website"/>
+	<meta name="author" content="Huu phuong"/>
+	<meta name="country" content="Viet nam"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>Phuong is Resume</title>
+	<link rel="stylesheet" href="Acess/acess.css">
+</head>
+<body>
+	<h1 id="menu_text">My Resume</h1>
+	<nav>
+		<a href="#contact" class="menu_left">Contact</a>		
+		<a href="#education" class="menu_left">Education</a>
+		<a href="#score" class="menu_left">Score</a>
+		<a href="#sore" class="menu_right">Social media</a>
+
+	</nav>
+	<div id="contener">
+		<div id="left_side">
+			<h2 id="contact"> Contact information </h2>
+			<p><em></em></p>
+			<ul>
+		  		<li><strong>Full name:</strong> Huu Phuong</li>
+		  		<li><strong>Country:</strong> Viet Nam</li>
+			</ul>
+			<h2 id="education"> Education </h2> 
+			<ol>
+				<li>Trung học phổ thông Trần phú</li>
+				<li>Đại học Lê Quý Đôn</li>
+				<li>Viện KHCNQS</li>
+			</ol>
+			<h2 id="score">Score</h2>
+			<dl id="right_side">
+				<dt><strong>Sunday</strong></dt>
+				<dd>The firt day of the week</dd>
+				<dt><strong>HTML</strong></dt>
+				<dd>HyperText Markup Language</dd>
+				<dt><strong>Internet</strong></dt>
+				<dd>A network of networks</dd>
+				<dt><strong>TCP/IP</strong></dt>
+				<dd>Transmission Control Protocol</dd>
+			</dl>			
+		</div>
+		<div id="right_side">
+			<h2 id="course">Online Course</h2>
+			<div id="course_container">
+				<div class="course_item">
+					<img class="course_img" src="Acess/2.jpg">
+					<div class="course_title">Logic Math</div>
+					<div class="course_desc">Toán tư duy cơ bản, </div>
+				</div>
+				<div class="course_item">
+					<img class="course_img" src="Acess/2.jpg">
+					<div class="course_title">Logic Math</div>
+					<div class="course_desc">Toán nâng cao</div>
+				</div>
+				<div class="course_item">
+					<img class="course_img" src="Acess/2.jpg">
+					<div class="course_title">Logic Math</div>
+					<div class="course_desc">xây dựng nền tảng kỹ thuật lập trình </div>
+				</div>
+				<div class="course_item">
+					<img class="course_img" src="Acess/2.jpg">
+					<div class="course_title">Logic Math</div>
+					<div class="course_desc">Lập trình nâng cao</div>
+				</div>
+				<div class="course_item">
+					<img class="course_img" src="Acess/2.jpg">
+					<div class="course_title">Logic Math</div>
+					<div class="course_desc">Phát triển  AI </div>
+				</div>
+				<div class="course_item">
+					<img class="course_img" src="Acess/2.jpg">
+					<div class="course_title">Logic Math</div>
+					<div class="course_desc">Lập trình tổng hợp</div>
+				</div>																				
+			</div>
+		</div>
+	</div>
+	<div id="nhap">
+		<form class="nhapten">
+			<div class="row">
+				<div class="col_25">
+					<label for="fname">Họ:</label>						
+				</div>
+				<div class="col_75">
+					<input type="text" id="fname" name="fname" placeholder="Họ của bạn">	
+				</div>				
+			</div>
+			<div class="row">
+				<div class="col_25">
+					<label for="lname">Tên:</label>			
+				</div>
+				<div class="col_75">
+					<input type="text" id="lname" name="lname" placeholder="Tên của bạn">	
+				</div>				
+			</div>
+			<div class="row">
+				<div class="col_25">
+					<label for="country">Quốc gia:</label>
+				</div>
+				<div class="col_75">
+					<select id="country" name="country">
+						<option value="viet">Việt nam</option>
+						<option value="cana">Canada</option>
+						<option value="usa">USA</option>
+					</select>
+				</div>					
+			</div>
+			<div class="row">
+				<div class="col_25">
+					<label for="sub">Bình luận</label>
+				</div>
+				<div class="col_75">
+					<textarea id="sub" name="sub" placeholder="Viết bình luận..." style="height:200px"></textarea>					
+				</div>				
+			</div>
+			<div class="row">
+				<input type="submit" value="Gửi">				
+			</div>	
+		</form>
+	</div>
+	<footer>
+		Created by Huu Phuong - <a href="http://google.com.vn" class="click">Click here</a>	
+	</footer>						
+</body>
+</html>
